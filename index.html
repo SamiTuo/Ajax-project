@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap">
+    <link rel="stylesheet" href="tyylit.css">
+    <title>Document</title>
+</head>
+<body>
+  <header>Katso maasi koronatilanne</header>
+  <form action="#" onsubmit ="return false">
+        <label for="maat">Valitse maa:</label>
+        <select name="maat" id="maat">
+          <option value="suomi">Suomi</option>
+          <option value="viro">Viro</option>
+          <option value="ruotsi">Ruotsi</option>
+          <option value="norja">Norja</option>
+          <option value="iso-britannia">Iso-Britannia</option>
+          <option value="yhdysvallat">Yhdysvallat</option>
+        </select>
+        <button id="button">Vaihda maa</button>
+        </form>
+      <div id="tulos"></div>
+      <footer>Jos tulos on "NA" se tarkoittaa, että tietoja ei ole saatavilla.</footer>
+</body>
+<script src="ajax.js"></script>
+</html>
